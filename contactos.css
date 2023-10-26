@@ -1,0 +1,51 @@
+html{
+    width: 100vw;
+    overflow: hidden;
+    font-family: "Roboto Flex", sans-serif;
+}
+
+header{
+    display: block;
+    position: relative;
+}
+
+h4{
+    display: block;
+    position: absolute;
+    left: 2vw;
+    font-family: "Barriecito",sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.HOME{
+    display: block;
+    position: absolute;
+    top: 5vh;
+    left: 10vw;
+}
+
+.ABOUT{
+    display: block;
+    position: absolute;
+    top: 5vh;
+    left: 15vw;
+}
+
+.WORK{
+    display: block;
+    position: absolute;
+    top: 5vh;
+    left: 20vw;
+}
+
+img{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: space-evenly;
+    top: 20vh;
+}
