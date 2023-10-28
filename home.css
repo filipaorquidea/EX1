@@ -1,4 +1,42 @@
 html{
     width: 100%;
     overflow: hidden;
+    background-color: black;
+    color: white;
+    font-family: "Roboto flex", sans-serif;
+}
+
+h1{
+    display: block;
+    position: absolute;
+    font-family: "Barriecito", sans-serif;
+    font-size: 20vh;
+    left: 20vw;
+    top: 20vh;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.ABOUT{
+    display: block;
+    position: absolute;
+    top: 5vh;
+    left: 10vw;
+}
+
+.WORK{
+    display: block;
+    position: absolute;
+    top: 5vh;
+    left: 15vw;
+}
+
+.CONTACT{
+    display: block;
+    position: absolute;
+    top: 5vh;
+    left: 20vw;
 }
