@@ -68,81 +68,54 @@ button {
     border-right: 2px solid rgb(238, 103, 238);
     box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px;
    }*/
-
-  /* .title {
-    height: 4em;
-    width: 12em;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: transparent;
-    border: 0px solid black;
-  }*/
-  
-  .wrapper {
-    height: 2em;
-    width: 8em;
-    position: relative;
-    background: transparent;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .text {
-    font-size: 17px;
-    z-index: 1;
-    color: #000;
-    padding: 4px 12px;
-    border-radius: 4px;
-    /*background: rgba(255, 255, 255, 0.7);*/
-    transition: all 0.5s ease;
-  }
   
   .flower {
     display: grid;
-    grid-template-columns: 1em 1em;
+    grid-template-columns: 5em 5em;
+    z-index: -1;
     position: absolute;
     transition: grid-template-columns 0.8s ease;
   }
   
   .flower1 {
-    top: -12px;
-    left: -13px;
+    top: 35vh;
+    left: 69vw;
     transform: rotate(5deg);
   }
   
   .flower2 {
-    bottom: -5px;
-    left: 8px;
+    top: 35vh;
+    left: 59vw;
     transform: rotate(35deg);
   }
   
   .flower3 {
-    bottom: -15px;
+    top: 35vh;
+    left: 49vw;
     transform: rotate(0deg);
   }
   
   .flower4 {
-    top: -14px;
+    top: 35vh;
+    left: 39vw;
     transform: rotate(15deg);
   }
   
   .flower5 {
-    right: 11px;
-    top: -3px;
+    left: 29vw;
+    top: 35vh;
     transform: rotate(25deg);
   }
   
   .flower6 {
-    right: -15px;
-    bottom: -15px;
+    left: 19vw;
+    top: 35vh;
     transform: rotate(30deg);
   }
   
   .petal {
-    height: 1em;
-    width: 1em;
+    height: 5em;
+    width: 5em;
     border-radius: 40% 70% / 7% 90%;
     background: linear-gradient(#07a6d7, #93e0ee);
     border: 0.5px solid #96d1ec;
@@ -168,12 +141,12 @@ button {
   }
   
   .title:hover .flower {
-    grid-template-columns: 1.5em 1.5em;
+    grid-template-columns: 5.5em 5.5em;
   }
   
   .title:hover .flower .petal {
-    width: 1.5em;
-    height: 1.5em;
+    width: 5.5em;
+    height: 5.5em;
   }
   
   .title:hover .text {
