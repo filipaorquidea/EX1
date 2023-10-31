@@ -10,36 +10,39 @@ h1{
     display: block;
     position: absolute;
     font-family: "Barriecito", sans-serif;
-    font-size: 20vh;
-    left: 20vw;
-    top: 20vh;
+    font-size: 15vh;
+    left: 25vw;
+    top: 27vh;
+    color: black;
 }
 
 a{
     text-decoration: none;
-    color: rgb(44, 38, 229);
     font-weight: bold;
 }
 
 .ABOUT{
-    display: block;
-    position: absolute;
-    top: 5vh;
-    left: 10vw;
+  display: block;
+  position: absolute;
+  float: right;
+  top: 5vh;
+  right: 15vw;
 }
 
 .WORK{
-    display: block;
-    position: absolute;
-    top: 5vh;
-    left: 20vw;
+  display: block;
+  position: absolute;
+  float: right;
+  top: 5vh;
+  right: 10vw;
 }
 
 .CONTACT{
-    display: block;
-    position: absolute;
-    top: 5vh;
-    left: 30vw;
+  display: block;
+  position: absolute;
+  float: right;
+  top: 5vh;
+  right: 5vw;
 }
 
 /*
