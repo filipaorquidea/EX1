@@ -1,7 +1,9 @@
 html{
-    width: 100vw;
+    width: 100%;
     overflow: hidden;
-    font-family: "Roboto Flex", sans-serif;
+    background-color: black;
+    color: white;
+    font-family: "Roboto flex", sans-serif;
 }
 
 header{
@@ -18,7 +20,7 @@ h4{
 
 a{
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 .HOME{
@@ -40,12 +42,4 @@ a{
     position: absolute;
     top: 5vh;
     left: 20vw;
-}
-
-img{
-    display: flex;
-    position: relative;
-    flex-direction: column;
-    justify-content: space-evenly;
-    top: 20vh;
 }
