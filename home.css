@@ -42,7 +42,17 @@ a{
   position: absolute;
   float: right;
   top: 5vh;
-  right: 5vw;
+  right:3vw;
+}
+
+.titulo{
+  display: block;
+  position: relative;
+  font-size: 5vw;
+  font-weight: bold;
+  top: 40vh;
+  left: 30vw;
+
 }
 
 /*
