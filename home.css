@@ -6,7 +6,7 @@ html{
     font-family: "Roboto flex", sans-serif;
 }
 
-h1{
+/*h1{
     display: block;
     position: absolute;
     font-family: "Barriecito", sans-serif;
@@ -14,7 +14,7 @@ h1{
     left: 25vw;
     top: 27vh;
     color: black;
-}
+}*/
 
 a{
     text-decoration: none;
@@ -48,11 +48,11 @@ a{
 .titulo{
   display: block;
   position: relative;
-  font-size: 5vw;
-  font-weight: bold;
-  top: 40vh;
-  left: 30vw;
-
+  top: 30vh;
+  left: 10vw;
+  color: black;
+	font-size: 10vw;
+	-webkit-text-stroke: 2px white;
 }
 
 /*
