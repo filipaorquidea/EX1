@@ -1,9 +1,10 @@
-html{
+body{
     width: 100%;
     overflow: hidden;
     background-color: black;
     color: white;
     font-family: "Roboto flex", sans-serif;
+    margin: 0;
 }
 
 /*h1{
@@ -19,6 +20,7 @@ html{
 a{
     text-decoration: none;
     font-weight: bold;
+    -webkit-text-fill-color: rgb(220, 43, 226);
 }
 
 .ABOUT{
@@ -45,14 +47,10 @@ a{
   right:3vw;
 }
 
-.titulo{
-  display: block;
-  position: relative;
-  top: 30vh;
-  left: 10vw;
-  color: black;
-	font-size: 10vw;
-	-webkit-text-stroke: 2px white;
+.draggable {
+  position: absolute;
+  font-size: 10vw;
+  cursor: grab;
 }
 
 /*
