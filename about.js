@@ -9,8 +9,8 @@ function createDiv() {
   name.classList.add('name');
   name.appendChild(document.createTextNode('FILIPA ORQUÍDEA'));
 
-  const randomX = Math.random() * (window.innerWidth - 100);
-  const randomY = Math.random() * (window.innerHeight - 50);
+  const randomX = Math.random() * (window.innerWidth);
+  const randomY = Math.random() * (window.innerHeight);
 
   name.style.left = `${randomX}px`;
   name.style.top = `${randomY}px`;

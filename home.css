@@ -20,7 +20,8 @@ body{
 a{
     text-decoration: none;
     font-weight: bold;
-    -webkit-text-fill-color: rgb(220, 43, 226);
+    color: white;
+    z-index: 100;
 }
 
 .ABOUT{
