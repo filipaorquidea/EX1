@@ -42,3 +42,10 @@ const numDivs = 14;
 
     document.body.appendChild(draggable);
   }
+
+  function stroke (){
+
+    const stroke = document.getElementsByName ('draggable');
+
+    if( draggable.stroke)
+  }
