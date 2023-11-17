@@ -56,11 +56,9 @@ img{
   position: absolute;
   background-color: white;
   font-weight: bold;
-  opacity: 80%;
   color: black;
   width: 20vw;
   height: 40vh;
-  text-align: center;
   float: right;
   top: 25vh;
   right: 20vw;
@@ -71,6 +69,8 @@ img{
   position: absolute;
   font-size: 10vw;
   cursor: default;
-  color: rgb(151, 200, 238);
   z-index: -1;
+  -webkit-user-select: none;
+  user-select: none;
+  mix-blend-mode: difference;
 }

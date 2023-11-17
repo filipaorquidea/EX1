@@ -1,4 +1,4 @@
-const numDivs = 14;
+const numDivs = 20;
 
 for (let i = 0; i < numDivs; i++) {
   createDiv();
@@ -7,9 +7,9 @@ for (let i = 0; i < numDivs; i++) {
 function createDiv() {
   const name = document.createElement('div');
   name.classList.add('name');
-  name.appendChild(document.createTextNode('FILIPA ORQUÍDEA'));
+  name.appendChild(document.createTextNode('CONTACT'));
 
-  const randomX = Math.random() * (window.innerWidth);
+  const randomX = Math.random() * (window.innerWidth-600);
   const randomY = Math.random() * (window.innerHeight);
 
   name.style.left = `${randomX}px`;

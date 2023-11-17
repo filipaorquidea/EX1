@@ -1,4 +1,4 @@
-const numDivs = 14;
+const numDivs = 20;
 
   for (let i = 0; i < numDivs; i++) {
     createDraggableDiv();
@@ -7,9 +7,9 @@ const numDivs = 14;
   function createDraggableDiv() {
     const draggable = document.createElement('div');
     draggable.classList.add('draggable');
-    draggable.appendChild(document.createTextNode ('FILIPA ORQUÍDEA'));
-
-    const randomX = Math.random() * (window.innerWidth);
+    draggable.appendChild(document.createTextNode('FILIPA ORQUÍDEA'));
+    
+    const randomX = Math.random() * (window.innerWidth-600);
     const randomY = Math.random() * (window.innerHeight);
 
     draggable.style.left = `${randomX}px`;
@@ -43,9 +43,11 @@ const numDivs = 14;
     document.body.appendChild(draggable);
   }
 
-  function stroke (){
+ /* function stroke (){
 
     const stroke = document.getElementsByName ('draggable');
 
-    if( draggable.stroke)
-  }
+    /*if( draggable.stroke){
+      
+    }
+  }*/

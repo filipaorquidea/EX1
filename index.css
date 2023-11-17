@@ -1,59 +1,53 @@
-html{
+@media screen and (max-width: 1920px) {
+
+  body {
     width: 100%;
     overflow: hidden;
     background-color: black;
     color: white;
     font-family: "Roboto flex", sans-serif;
-}
+    margin: 0;
+  }
 
-header{
-    display: block;
-    position: relative;
-}
-
-h3{
-    display: block;
-    position: absolute;
-    z-index: 1;
-    top: 3.2vh;
-    left: 2vw;
-    font-family: "Barriecito",sans-serif;
-    color: black;
-}
-
-a{
+  a {
     text-decoration: none;
+    font-weight: bold;
     color: white;
-}
+    z-index: 100;
+  }
 
-.HOME{
+  .ABOUT {
     display: block;
     position: absolute;
     float: right;
     top: 5vh;
     right: 15vw;
-}
+  }
 
-.ABOUT{
+  .WORK {
     display: block;
     position: absolute;
     float: right;
     top: 5vh;
-    right: 9.5vw;
-}
+    right: 10vw;
+  }
 
-.CONTACT{
+  .CONTACT {
     display: block;
     position: absolute;
     float: right;
     top: 5vh;
     right: 3vw;
-}
+  }
 
-.work {
-  position: absolute;
-  font-size: 10vw;
-  -webkit-user-select: none;
-  user-select: none;
-  mix-blend-mode: difference;
+  .draggable {
+    position: absolute;
+    font-size: 10vw;
+    cursor: grab;
+    -webkit-user-select: none;
+    user-select: none;
+    mix-blend-mode: difference;
+    z-index: -1;
+  }
+
 }
