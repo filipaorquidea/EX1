@@ -1,4 +1,4 @@
-@media screen and (max-width: 1920px) {
+@media screen and (min-width: 780px) {
 
   body {
     width: 100%;
@@ -32,12 +32,59 @@
     right: 10vw;
   }
 
+  .draggable {
+    position: absolute;
+    font-size: 10vw;
+    cursor: grab;
+    -webkit-user-select: none;
+    user-select: none;
+    mix-blend-mode: difference;
+    z-index: -1;
+  }
+
+}
+
+
+@media screen and (max-width: 780px) {
+
+  body {
+    width: 100%;
+    overflow: hidden;
+    background-color: black;
+    color: white;
+    font-family: "Roboto flex", sans-serif;
+    margin: 0;
+  }
+
+  a {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    z-index: 100;
+  }
+
+  .ABOUT {
+    display: block;
+    position: absolute;
+    float: right;
+    top: 5vh;
+    right: 20vw;
+  }
+
+  .WORK {
+    display: block;
+    position: absolute;
+    float: right;
+    top: 5vh;
+    right: 20vw;
+  }
+
   .CONTACT {
     display: block;
     position: absolute;
     float: right;
     top: 5vh;
-    right: 3vw;
+    right: 5vw;
   }
 
   .draggable {

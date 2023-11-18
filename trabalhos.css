@@ -1,59 +1,85 @@
-html{
-    width: 100%;
-    overflow: hidden;
-    background-color: black;
-    color: white;
-    font-family: "Roboto flex", sans-serif;
-}
+@media screen and (min-width: 320px) {
 
-header{
-    display: block;
-    position: relative;
-}
+    html {
+        width: 100%;
+        background-color: black;
+        color: white;
+        font-family: "Roboto flex", sans-serif;
+    }
 
-h3{
-    display: block;
-    position: absolute;
-    z-index: 1;
-    top: 3.2vh;
-    left: 2vw;
-    font-family: "Barriecito",sans-serif;
-    color: black;
-}
+    html::-webkit-scrollbar {
+        display: none;
+    }
 
-a{
-    text-decoration: none;
-    color: white;
-}
+    header {
+        display: block;
+        position: relative;
+    }
 
-.HOME{
-    display: block;
-    position: absolute;
-    float: right;
-    top: 5vh;
-    right: 15vw;
-}
+    h3 {
+        display: block;
+        position: absolute;
+        z-index: 1;
+        top: 3.2vh;
+        left: 2vw;
+        font-family: "Barriecito", sans-serif;
+        color: black;
+    }
 
-.ABOUT{
-    display: block;
-    position: absolute;
-    float: right;
-    top: 5vh;
-    right: 9.5vw;
-}
+    a{
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        z-index: 1;
+    }
 
-.CONTACT{
-    display: block;
-    position: absolute;
-    float: right;
-    top: 5vh;
-    right: 3vw;
-}
+    .HOME {
+        display: block;
+        position: fixed;
+        float: right;
+        top: 5vh;
+        right: 16vw;
+    }
 
-.work {
-  position: absolute;
-  font-size: 10vw;
-  -webkit-user-select: none;
-  user-select: none;
-  mix-blend-mode: difference;
+    .ABOUT {
+        display: block;
+        position: fixed;
+        float: right;
+        top: 5vh;
+        right: 10vw;
+    }
+
+    .work {
+        position: absolute;
+        font-size: 10vw;
+        -webkit-user-select: none;
+        user-select: none;
+        mix-blend-mode: difference;
+        z-index: -1;
+    }
+
+    img {
+        display: block;
+        position: absolute; 
+        z-index: 1;
+        width: 35%;
+        height: 40%;
+        filter: saturate(0);
+    }
+
+    .img1 {
+        top: 25vh;
+        left: 30vw;
+    }
+
+    .img2 {
+        top: 70vh;
+        left: 30vw;
+    }
+
+    .img3 {
+        top: 115vh;
+        left: 30vw;
+    }
+
 }

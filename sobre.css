@@ -1,31 +1,31 @@
-html{
-    width: 100%;
-    overflow: hidden;
-    background-color: black;
-    color: white;
-    font-family: "Roboto flex", sans-serif;
+html {
+  width: 100%;
+  overflow: hidden;
+  background-color: black;
+  color: white;
+  font-family: "Roboto flex", sans-serif;
 }
 
-header{
-    display: block;
-    position: relative;
+header {
+  display: block;
+  position: relative;
 }
 
-a{
+a {
   text-decoration: none;
   font-weight: bold;
   color: white;
 }
 
-.HOME{
-    display: block;
-    position: absolute;
-    float: right;
-    top: 5vh;
-    right: 15vw;
+.HOME {
+  display: block;
+  position: absolute;
+  float: right;
+  top: 5vh;
+  right: 15vw;
 }
 
-.WORK{
+.WORK {
   display: block;
   position: absolute;
   float: right;
@@ -33,36 +33,59 @@ a{
   right: 10vw;
 }
 
-.CONTACT{
-    display: block;
-    position: absolute;
-    float: right;
-    top: 5vh;
-    right: 3vw;
-}
-
-img{
-    display: block;
-    position: absolute;
-    width: 25%;
-    height: auto;
-    float: left;
-    top: 25vh;
-    left: 20vw;
-}
-
-.texto{
+.foto {
   display: block;
   position: absolute;
-  background-color: white;
+  width: 40%;
+  height: auto;
+  float: left;
+  top: 25vh;
+  left: 30vw;
+  filter: saturate(0);
+}
+
+.texto {
+  display: block;
+  position: absolute;
   font-weight: bold;
-  color: black;
   width: 20vw;
   height: 40vh;
   float: right;
-  top: 25vh;
-  right: 20vw;
+  top: 30vh;
+  right: 32vw;
+  mix-blend-mode: difference;
 
+}
+
+.redes {
+  display: block;
+  position: relative;
+  -webkit-filter: invert(1);
+  z-index: 1;
+}
+
+.pinterest{
+  display: block;
+  position: relative;
+  float: left;
+  left: 51vw;
+  top: 51vh;
+}
+
+.insta{
+  display: block;
+  position: relative;
+  float: right;
+  top: 52vh;
+  right: 40vw;
+}
+
+.linkedin{
+  display: block;
+  position: relative;
+  float: right;
+  right: 32vw;
+  top: 51vh;
 }
 
 .name {

@@ -1,4 +1,4 @@
-const numDivs = 20;
+const numDivs = 40;
 
   for (let i = 0; i < numDivs; i++) {
     createDraggableDiv();
@@ -9,8 +9,8 @@ const numDivs = 20;
     draggable.classList.add('draggable');
     draggable.appendChild(document.createTextNode('FILIPA ORQUÍDEA'));
     
-    const randomX = Math.random() * (window.innerWidth-600);
-    const randomY = Math.random() * (window.innerHeight);
+    const randomX = Math.random() * (window.innerWidth-400);
+    const randomY = Math.random() * (window.innerHeight+400);
 
     draggable.style.left = `${randomX}px`;
     draggable.style.top = `${randomY}px`;
