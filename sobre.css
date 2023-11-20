@@ -91,7 +91,7 @@ filter: invert(1);
 .name {
   position: absolute;
   font-size: 10vw;
-  cursor: default;
+  cursor: grab;
   z-index: -1;
   -webkit-user-select: none;
   user-select: none;

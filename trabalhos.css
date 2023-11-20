@@ -40,6 +40,7 @@
         user-select: none;
         mix-blend-mode: difference;
         z-index: -1;
+        cursor: grab;
     }
 
     img {

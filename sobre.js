@@ -15,5 +15,31 @@ function createDiv() {
   name.style.left = `${randomX}px`;
   name.style.top = `${randomY}px`;
 
+  let isDragging = false;
+  let offsetX, offsetY;
+
+  name.addEventListener('mousedown', (e) => {
+    isDragging = true;
+    offsetX = e.clientX - name.getBoundingClientRect().left;
+    offsetY = e.clientY - name.getBoundingClientRect().top;
+    name.style.cursor = 'grabbing';
+  });
+
+  document.addEventListener('mousemove', (e) => {
+    if (isDragging) {
+      const x = e.clientX - offsetX;
+      const y = e.clientY - offsetY;
+
+      name.style.left = `${x}px`;
+      name.style.top = `${y}px`;
+    }
+  });
+
+  document.addEventListener('mouseup', () => {
+    isDragging = false;
+    name.style.cursor = 'grab';
+  });
+
   document.body.appendChild(name);
+
 }
