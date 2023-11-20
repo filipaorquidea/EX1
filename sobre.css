@@ -126,11 +126,11 @@ a {
   .foto {
     display: block;
     position: absolute;
-    width: 40%;
+    width: 60%;
     height: auto;
     float: left;
     top: 25vh;
-    left: 30vw;
+    left: 20vw;
     filter: saturate(0);
   }
 
