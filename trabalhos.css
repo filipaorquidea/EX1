@@ -71,13 +71,10 @@
         html {
             width: 100%;
             height: auto;
+            overflow: hidden;
             background-color: black;
             color: white;
             font-family: "Roboto flex", sans-serif;
-        }
-
-        html::-webkit-scrollbar {
-            display: none;
         }
 
         a {
@@ -117,23 +114,23 @@
             display: block;
             position: absolute;
             z-index: 1;
-            width: 50%;
+            width: 65%;
             height: auto;
             filter: saturate(0);
         }
 
         .img1 {
-            top: 25vh;
-            left: 25vw;
+            top: 15vh;
+            left: 17vw;
         }
 
         .img2 {
             top: 40vh;
-            left: 25vw;
+            left: 17vw;
         }
 
         .img3 {
-            top: 55vh;
-            left: 25vw;
+            top: 65vh;
+            left: 17vw;
         }
     }

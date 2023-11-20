@@ -114,7 +114,7 @@ filter: invert(1);
   }
 
   .HOME {
-    right: 20vw;
+    right: 25vw;
     background-color: black;
   }
 
@@ -129,7 +129,7 @@ filter: invert(1);
     width: 60%;
     height: auto;
     float: left;
-    top: 25vh;
+    top: 15vh;
     left: 20vw;
     filter: saturate(0);
   }
@@ -141,7 +141,7 @@ filter: invert(1);
     width: 65vw;
     height: auto;
     left: 20vw;
-    top: 50vh;
+    top: 40vh;
     background-color: black;
   }
 
