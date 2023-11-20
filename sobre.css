@@ -18,6 +18,7 @@ a {
   float: right;
   top: 5vh;
   right: 15vw;
+  background-color: black;
 }
 
 .WORK {
@@ -26,6 +27,7 @@ a {
   float: right;
   top: 5vh;
   right: 10vw;
+  background-color: black;
 }
 
 .foto {
