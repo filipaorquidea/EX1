@@ -6,11 +6,6 @@ html {
   font-family: "Roboto flex", sans-serif;
 }
 
-header {
-  display: block;
-  position: relative;
-}
-
 a {
   text-decoration: none;
   font-weight: bold;
@@ -119,14 +114,13 @@ a {
   }
 
   .HOME {
-    float: right;
     right: 20vw;
+    background-color: black;
   }
 
   .WORK {
-    
-    float: right;
     right: 5vw;
+    background-color: black;
   }
 
   .foto {
@@ -162,18 +156,26 @@ a {
 
   .pinterest {
     width: 20%;
-    left: 47vw;
+    height: auto;
+    left: 10vw;
     top: 80vh;
+    background-color: white;
   }
   
   .insta {
+    width: 19%;
+    height: auto;
     top: 80vh;
     right: 40vw;
+    background-color: white;
   }
   
   .linkedin {
-    right: 32vw;
+    width: 20%;
+    height: auto;
+    right: 10vw;
     top: 80vh;
+    background-color: white;
   }
 
   .name {

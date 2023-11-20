@@ -1,4 +1,4 @@
-const numDivs = 40;
+const numDivs = 50;
 
 for (let i = 0; i < numDivs; i++) {
   createDiv();
@@ -9,8 +9,8 @@ function createDiv() {
   work.classList.add('work');
   work.appendChild(document.createTextNode('WORK'));
 
-  const randomX = Math.random() * (window.innerWidth-400);
-  const randomY = Math.random() * (window.innerHeight+400);
+  const randomX = Math.random() * (window.innerWidth-150);
+  const randomY = Math.random() * (window.innerHeight+350);
 
   work.style.left = `${randomX}px`;
   work.style.top = `${randomY}px`;
