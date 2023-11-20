@@ -53,7 +53,6 @@ a {
   float: right;
   top: 30vh;
   right: 32vw;
-  mix-blend-mode: difference;
 
 }
 
@@ -64,28 +63,34 @@ a {
   z-index: 1;
 }
 
-.pinterest{
+.pinterest {
   display: block;
-  position: relative;
+  position: absolute;
   float: left;
-  left: 51vw;
-  top: 51vh;
+  width: 5%;
+  height: auto;
+  left: 47vw;
+  top: 55vh;
 }
 
-.insta{
+.insta {
   display: block;
-  position: relative;
+  position: absolute;
   float: right;
-  top: 52vh;
+  width: 4%;
+  height: auto;
+  top: 56vh;
   right: 40vw;
 }
 
-.linkedin{
+.linkedin {
   display: block;
-  position: relative;
+  position: absolute;
   float: right;
+  width: 5%;
+  height: auto;
   right: 32vw;
-  top: 51vh;
+  top: 55vh;
 }
 
 .name {
@@ -96,4 +101,88 @@ a {
   -webkit-user-select: none;
   user-select: none;
   mix-blend-mode: difference;
+}
+
+@media screen and (max-width: 780px) {
+
+  html {
+    width: 100%;
+    background-color: black;
+    color: white;
+    font-family: "Roboto flex", sans-serif;
+  }
+
+  a {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+  }
+
+  .HOME {
+    float: right;
+    right: 20vw;
+  }
+
+  .WORK {
+    
+    float: right;
+    right: 5vw;
+  }
+
+  .foto {
+    display: block;
+    position: absolute;
+    width: 40%;
+    height: auto;
+    float: left;
+    top: 25vh;
+    left: 30vw;
+    filter: saturate(0);
+  }
+
+  .texto {
+    display: block;
+    position: absolute;
+    font-weight: bold;
+    width: 65vw;
+    height: auto;
+    left: 20vw;
+    top: 50vh;
+    background-color: black;
+  }
+
+  .redes {
+    display: block;
+    position: relative;
+    -webkit-filter: invert(1);
+    z-index: 1;
+    width: 100%;
+    height: auto;
+  }
+
+  .pinterest {
+    width: 20%;
+    left: 47vw;
+    top: 80vh;
+  }
+  
+  .insta {
+    top: 80vh;
+    right: 40vw;
+  }
+  
+  .linkedin {
+    right: 32vw;
+    top: 80vh;
+  }
+
+  .name {
+    position: absolute;
+    font-size: 10vw;
+    cursor: default;
+    z-index: -1;
+    -webkit-user-select: none;
+    user-select: none;
+    mix-blend-mode: difference;
+  }
 }
